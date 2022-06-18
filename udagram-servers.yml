@@ -53,7 +53,7 @@ Resources:
             ImageId: ami-0729e439b6769d6ab
             KeyName: cloudformation_vpc_exercise_key_pair
             SecurityGroups:
-                - Ref: WebServerSecGroup
+                - sg-0d939cd0a5fbf3315
             InstanceType: t3.medium
             BlockDeviceMappings:
                 - DeviceName: "/dev/sdk"
