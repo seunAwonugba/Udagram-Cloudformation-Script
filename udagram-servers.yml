@@ -51,7 +51,6 @@ Resources:
                     sudo apt-get install apache2 -y
                     sudo systemctl start apache2.service
             ImageId: ami-0729e439b6769d6ab
-            KeyName: cloudformation_vpc_exercise_key_pair
             SecurityGroups:
                 - sg-0d939cd0a5fbf3315
             InstanceType: t3.medium
